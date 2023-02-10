@@ -50,4 +50,4 @@ async def on_message(message):
     await bot.process_commands(message)
     
 # Addyout BOT TOKEN here
-bot.run('MTA3MzQ0MTI4Mjk5NjgzODQ0MQ.GqSwiJ.LUd-cY1ziCMoclNBC2YTT_PvsDskDPM-ZUT044')
+bot.run('Bottoken')
