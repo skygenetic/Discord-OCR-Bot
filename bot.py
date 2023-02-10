@@ -17,7 +17,7 @@ def get_string(img_path):
     cv2.imwrite(img_path, img)
 
     # Uncomment the BELOW LINE when deploying on HEROKU
-    # pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"   
+    pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"   
     
     result = pytesseract.image_to_string(Image.open(img_path))
     return result
